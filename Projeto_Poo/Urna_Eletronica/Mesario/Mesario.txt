@@ -1,0 +1,21 @@
+<mesario>
+	<login>login</login>
+	<senha>senha</senha>
+</mesario>
+<mesario>
+	<login>Anderson</login>
+	<senha>senha</senha>
+</mesario>
+<mesario>
+	<login>Dailton</login>
+	<senha>123dailton</senha>
+</mesario>
+<mesario>
+	<login>Marcio</login>
+	<senha>123marcio</senha>
+</mesario>
+
+<mesario>
+	<login>Henrique</login>
+	<senha>123</senha>
+</mesario>
