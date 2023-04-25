@@ -1,0 +1,19 @@
+
+
+<eleicao>Presidencial</eleicao>
+<cargos>
+	<cargo>
+		<titulo>Deputado Federal</titulo>
+		<vice></vice>
+		<digitos>4</digitos>
+		<eleitos>10</eleitos>
+	</cargo>
+
+	
+	<cargo>
+		<titulo>Presidente</titulo>
+		<vice>sim</vice>
+		<digitos>2</digitos>
+		<eleitos>1</eleitos>
+	</cargo>
+</cargos>
