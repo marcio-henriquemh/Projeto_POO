@@ -29,9 +29,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
-
 import javax.security.auth.spi.LoginModule;
-
 import classes_e_objetos.Candidatos;
 import classes_e_objetos.Eleitor;
 import classes_e_objetos.Mesario;
@@ -150,7 +148,27 @@ public class Lendo_Arquivo extends Arquivo
         boolean lendoMesario=false;
         boolean contemLogin=false;
         boolean contemSenha=false;
+        int inicio=0;
+        int fim=0;
+        ArrayList<Mesario> mesarios=new ArrayList<>();
+        Mesario mesario;
+
+        String kinha="";
+
+        //criando objeto para ler o arquivo
+        File arquivo=new File(""+new File("").getAbsolutePath()+"/home/marciohenrique/UFS/Programacao Orientada Objetos/Projeto_Poo/Urna_Eletronica/Mesario/Mesario.txt");
+
+        if (arquivo.exists()) {
+            try{
+
+                BufferedReader bf = new BufferedReader(new InputStreamReader (new FileInputStream(arquivo.getAbsolutePath()),"ISO-8859-1"));
+
+            }
+            
+        }
 
         
     }
+
+}
 
